@@ -1,0 +1,201 @@
+a{
+    text-decoration: none;
+    color: #5b8639;
+    font-weight: bold;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #1d1918;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    
+    color: #fff;
+}
+header h1{    
+    font-size: 15px;    
+    padding: 0px;
+}
+header p{
+    font-size: 10px;
+    font-style: italic;
+   
+}header h1+p{
+    margin-top: -23px;
+}
+
+.bigpic{    
+    margin: auto;
+    width: 80%;
+    background-image: url(../img/headerbackground3.jpg);    
+    background-position: center bottom;
+    border: 1px solid black;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+
+nav{
+    width: 100%;
+    margin: auto;
+    background-color: #333;
+    color: #fff;
+    border: 1px black solid;
+    height: 45px;
+    /* box-sizing: border-box; */
+    
+}
+nav a:hover{
+    color: #7a9d5e;
+}
+nav ul{
+    text-shadow: 2px 2px black;
+    text-align: left;
+    margin-top: 10px;
+    /* padding: 0px; */
+    /* list-style: none; */
+}
+nav li{    
+    display: inline;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.showcase{  
+    width: 80%;
+    margin: auto;  
+    color: #b0c396;
+    height: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.showcase h1{    
+    color: #b0c396;
+    
+    -webkit-text-stroke: 1px black;
+    font-size: 60px;    
+}
+q{
+    text-shadow: 2px 2px black;
+    font-style: italic;    
+}
+
+main{
+    color: black;    
+    background-color: #333;
+    border-style: solid;
+    border: 1px black solid;
+    border-right: 0px;
+    float:left;
+    width: 80%;
+    height: 450px;    
+    padding: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+main h1{
+    color: #b0c396;    
+    font-size: 40px;
+}
+main h4{
+    color: #b0c396;
+    font-size: 18px;
+}
+main p{
+    color: #7a9d5e;
+    font-size: 15px;
+    
+}
+main a{
+    margin: 0;
+    padding: 30px;
+}
+
+aside{
+    float:right;
+    width: 20%;
+    height: 450px;    
+    padding: 30px;
+    background: #565e4a;
+    box-sizing: border-box;
+    border: 1px black solid;    
+}
+aside img{   
+    border: 1px black solid;
+    display: block;
+    margin: auto;
+    
+}
+aside p{
+    font-size: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+main +aside{
+    margin-bottom: 350px;
+}
+
+footer{
+    background: #333;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    bottom: 1;
+    width:100%;
+    height:30px;
+    padding: 0;
+    
+    box-sizing: border-box;
+    
+}
+footer p{
+    text-align: center;
+    margin-top: 5px;
+}
+.imglinks{
+    margin-top: 30px;
+    margin-left: auto;
+}
+
+.contactform-radio{
+    color: #b0c396;
+}
+.contactform-namereg{
+    color: #b0c396;
+    position: relative;
+}
+.contactform-namereg *{
+    display: block;
+    margin-top: 2px;
+}
+
+
+
+/* Frågor till Clara:
+
+
+Vad är "em"?
+Margin mellan två float's? */
